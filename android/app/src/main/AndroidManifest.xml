@@ -3,6 +3,9 @@
         android:label="flutter_performance"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+        <profileable />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
